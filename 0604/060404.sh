@@ -1,9 +1,15 @@
 #!/bin/bash
 
 
-directorypath = $1
-if [ ! -d "$directorypath"]; then
-    echo "$0: ${directorypath} デイレクトリではありません"
+directory="$1"
+
+if [ -d "$directory" ]; then
+    for file in $(ls "$directory")
+    do
+        if [ ! -r "${directory}/${file}" ]; then
+            echo "$file"
+        fi
+    done
 else
-    ls -l "$directorypath" | awk '! /r/' {print $0}
+    echo "${diretory}: ディレクトリではありません"
 fi
