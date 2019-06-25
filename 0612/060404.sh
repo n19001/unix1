@@ -2,7 +2,7 @@
 
 usage()
 {
-  local script_name=$(basename "$0")
+
 
   cat  << END
 使い方:060404.sh DIRPATH...

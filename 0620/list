@@ -1,0 +1,12 @@
+curl -f "https://www.google.co.jp/imghp?hl=en&tab=wi" > /dev/null
+curl -f "https://maps.google.co.jp/maps?hl=en&tab=wl" > /dev/null
+curl -f "https://play.google.com/?hl=en&tab=w8" > /dev/null
+curl -f "https://www.youtube.com/?gl=JP&tab=w1" > /dev/null
+curl -f "https://mail.google.com/mail/?tab=wm" > /dev/null
+curl -f "https://drive.google.com/?tab=wo" > /dev/null
+curl -f "https://www.google.com/calendar?tab=wc" > /dev/null
+curl -f "https://www.google.co.jp/intl/en/about/products?tab=wh" > /dev/null
+curl -f "http://www.google.co.jp/history/optout?hl=en" > /dev/null
+curl -f "https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/webhp%3Fhl%3Den" > /dev/null
+curl -f "https://www.google.com/setprefs?sig=0_EfkGQIv4D78cVeS6vp-4YW1RKUg%3D&amp;hl=ja&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwi-qLfgwIPjAhXBBKYKHb3SA3QQ2ZgBCAU" > /dev/null
+curl -f "https://www.google.com/setprefdomain?prefdom=JP&amp;prev=https://www.google.co.jp/&amp;sig=K_CcHxv0LwO3YLYH4K00fcVyc5Cvo%3D" > /dev/null
